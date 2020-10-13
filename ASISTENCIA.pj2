@@ -33,7 +33,7 @@ _AutoIncrement = "0"
 
 
 *<BuildProj>
-*<.HomeDir = 'i:\beto\proyectos beto\vfp\desarrollo\github\parami\desarrollo' />
+*<.HomeDir = 'c:\github\parami' />
 
 FOR EACH loProject IN _VFP.Projects FOXOBJECT
 	loProject.Close()
@@ -60,6 +60,7 @@ WITH loProject.FILES
 	.ADD('form\frm_detaemple.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
 	.ADD('form\frm_detaloca.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
 	.ADD('form\frm_detaperiodo.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
+	.ADD('form\frm_detatelo.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" User="" />
 	.ADD('form\frm_detempre.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
 	.ADD('form\frm_editamarcado.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
 	.ADD('form\frm_emple.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
@@ -72,6 +73,7 @@ WITH loProject.FILES
 	.ADD('form\frm_obsermarcado.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
 	.ADD('form\frm_periodo.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
 	.ADD('form\frm_rephorario.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
+	.ADD('form\frm_telo.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" User="" />
 	.ADD('form\reg_marcadoxempresa.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
 	.ADD('form\reg_marcadoxtraba.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
 	.ADD('gentabla.prg')		&& *< FileMetadata: Type="P" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" User="" />
